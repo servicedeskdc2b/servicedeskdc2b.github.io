@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServiceDesk - Wiki</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="icon" href="images/favicon-32x32.png" type="image/x-icon">
+  </head>
+  <body>
+    <div id="subject-block-label" class="subject-label">
+      <center>
+        <h2 class="name">Service Desk Wiki</h2>
+        <div id="subject-block" class="grid-container-custom"></div>
+      </center>
+    </div>
+
+    <div class="grid-container">
+      <div id="first-lvl" class="first-lvl-grid">
+        <div id="first-lvl-objects" class="grid-x"></div>
+        <div id="first-lvl-title" class="title">Выберете необходимый пункт</div>
+      </div>
+
+      <div id="second-lvl" class="second-lvl-grid hidden">
+        <div class="grid-x">
+          <button id="back-first-lvl" class="path back-link"></button>
+          <div id="second-lvl-title" class="title path"></div>
+        </div>
+        <div id="second-lvl-objects" class="grid-x"></div>
+      </div>
+
+      <div id="third-lvl" class="third-lvl-grid hidden">
+        <div class="grid-x">
+          <button id="back-second-lvl" class="path back-link"></button>
+          <div id="third-lvl-title" class="title path"></div>
+        </div>
+        <div id="third-lvl-objects" class="grid-x"></div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,145 @@
+body {
+	background-color: #eee;
+}
+
+.grid-container-custom {
+    max-width: 100%;
+}
+
+.hidden {
+	display: none;
+}
+
+.show {
+	display: show;
+}
+
+.reveal {
+	background-color: #eee;
+}
+
+.subject-label {
+	background-color: #394242;
+	padding: 1rem;
+}
+
+.name {
+	color: #fff;
+	font-weight: bold;
+	font-size: 2.3rem
+}
+
+.path {
+	float: left;
+	font-weight: bold;
+	cursor: pointer;
+	color: #929292;
+}
+
+.back-link:hover {
+	color: #000;
+}
+
+.topic-part {
+    text-transform: uppercase;
+    text-align: center;
+    width: 130px;
+    height: 110px;
+    background-color: #fff;
+    color: #444;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-right: 14px !important;
+    line-height: 2rem;
+}
+
+.columns-float {
+	float: left;
+}
+
+.first-lvl, .second-lvl, .third-lvl {
+	background-color: #fff;
+	width: 100%;
+	color: #444;
+	text-align: left;
+	border: 1px solid #e3e3e3;
+	border-bottom: none;
+	margin-bottom: 0;
+	font-size: 0.9em;
+	font-weight: bold;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.07);
+}
+
+.first-lvl:last-child {
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.second-lvl, .third-lvl {
+	border: 1px solid #e3e3e3;
+	border-bottom: none;
+}
+
+.third-lvl {
+	padding: 0.1em;
+	padding-left: 1rem; 
+    line-height: 2.5rem;
+    color: #444;
+}
+
+.lvl-name, .lvl-number {
+	padding: 0.35rem;
+	border-right: 1px solid #e3e3e3;
+}
+
+.lvl-number {
+	text-align: center;
+	color: #777;
+}
+
+.date-label {
+	color: #777;
+	float: right;
+	margin-right: 1rem;
+	border-left: 1px solid #e3e3e3;
+	padding-left: 1rem; 
+}
+
+.title, .second-lvl-title, .third-lvl-title {
+	text-align: left;
+	font-weight: bold;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: #394242;
+}
+
+.third-title {
+	color: #444;
+	font-weight: bold;
+	border-right: 1px solid #e3e3e3;
+}
+
+.second-lvl-title, .third-lvl-title {
+	color: #444;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.second-lvl:last-child, .third-lvl:last-child {
+	border: 1px solid #e6e6e6;
+}
+
+.second-lvl:hover {
+	background-color: #ebf7fb;
+}
+
+.link-btn {
+	margin: 0 !important;
+	background-color: #fff;
+	color: #444;
+}
+
+.link-btn:hover {
+	background-color: #394242;
+	color: #fff;
+}
